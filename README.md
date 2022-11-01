@@ -47,7 +47,10 @@ And let's code
 
 ## Example
 
-.github/assets/2022-10-31 23-37-01.mp4
+
+
+
+[![Watch the video](https://user-images.githubusercontent.com/83548040/199292126-eee0a3a4-e2e9-40ea-8350-67758ac88576.mp4)](https://user-images.githubusercontent.com/83548040/199292126-eee0a3a4-e2e9-40ea-8350-67758ac88576.mp4)
 
 <a id="como-contribuir"></a>
 
