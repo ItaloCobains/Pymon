@@ -12,7 +12,7 @@ def getAllFilesInRepo() -> list:
     onlyfiles = [f for f in listdir(dir) if isfile(join(dir, f))]
     return onlyfiles
 
-def returnSizeOfArrayFiles(files: list):
+def returnSizeOfArrayFiles(files: list) -> list:
     data: list = []
     for file in files:
         data.append(returnSizeOfFile(file))

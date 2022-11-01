@@ -1,9 +1,10 @@
-from . import helpers
 import os
-import time
+
+from . import helpers
+from colorama import Fore
 
 class Pymon:
-    def __init__(self) -> None:
+    def __init__(self: object) -> None:
         self.files = helpers.getAllFilesInRepo()
         self.sizeData = helpers.returnSizeOfArrayFiles(self.files)
         self.command = helpers.readSettingsFile()
@@ -12,15 +13,19 @@ class Pymon:
         return self
 
 
-    def main(self) -> None:
+    def main(self: object) -> None:
         while(True):
+            print(Fore.GREEN, "Executing file")
+            print(Fore.WHITE, '\n')
             os.system(self.command)
-            print("Executing command")
             while(True):
                 data = helpers.returnSizeOfArrayFiles(self.files)
                 result: bool = helpers.verifyFileChange(self.sizeData, data)
                 self.sizeData = data
                 if result:
+                    print('file changed')
                     break
+            os.system("clear")
             os.system("^C")
+            os.system("clear")
 
