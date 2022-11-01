@@ -1,1 +1,1 @@
-command="python3 app.py"
+command='python3 testing.py'
