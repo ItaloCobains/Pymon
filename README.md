@@ -36,9 +36,18 @@ Create the file in the project root.
 ```py
 command='python3 mainfile.py'
 ```
-Download the binary and place it in the project root.
 
-Then just run the binary.
+Copy folter sample and app.py for to project root and run
+
+```bash
+python3 app.py
+```
+
+And let's code
+
+## Example
+
+.github/assets/2022-10-31 23-37-01.mp4
 
 <a id="como-contribuir"></a>
 
