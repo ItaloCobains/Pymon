@@ -7,7 +7,7 @@ colorama==0.4.6
 Eel==0.14.0
 exceptiongroup==1.0.0
 future==0.18.2
-gevent==22.10.2
+gevent==23.9.1
 gevent-websocket==0.10.1
 greenlet==2.0.0
 iniconfig==1.1.1
